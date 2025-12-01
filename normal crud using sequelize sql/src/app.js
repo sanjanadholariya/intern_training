@@ -9,7 +9,7 @@ app.use(express.urlencoded())
 
 app.use('/api', require('./routes/index.routes'))
 
-sequelize.sync({ alter: true })
+sequelize.sync()
     .then(() => {
         console.log("database and tables synced...")
 
