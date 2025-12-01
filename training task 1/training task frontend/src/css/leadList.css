@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.leadList{
+    background-color: rgba(180, 201, 218, 0.699);
+    height: 100vh;
+    padding: 50px;
+}
+
+.leadList .top{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leadList  .end{
+    display: flex;
+    color: black !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.leadList .list{
+    display: flex;
+    border-top: 0;
+    margin-top: 30px;
+}
+
+.leadList table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(23, 115, 219, 0.459);
+}
+.leadList th, td {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.leadList th{
+    color: rgb(188, 227, 243);
+}
+
+.leadList .end button , .leadList .end .button{
+    padding: 5px 13px !important;
+    background-color: rgba(17, 116, 155, 0.562);
+    font-size: 17px;
+    color: white;
+    border: 0;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+/* 
+{
+    background-color: skyblue;
+    padding: 5px;
+
+} */
+
+.leadList .list button{
+    margin-right: 10px;
+    padding: 3px 12px   ;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.leadList .list #editbtn{
+    background-color: rgb(187, 199, 27);
+}
+
+.leadList .list #deletebtn{
+    background-color: rgb(172, 14, 14);
+}

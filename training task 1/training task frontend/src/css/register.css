@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.registerPage .container{
+    max-width: 100%;
+    background-color: rgb(208, 224, 224);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerPage .box{
+    background-image: url(https://i.pinimg.com/1200x/52/68/19/52681969a3b1aa0f1c98e2366a4e9b53.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 450px !important;
+     width: 75%;
+   border-radius: 30px;
+   padding: 20px;
+}
+
+.registerPage .title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start !important; 
+    color: rgb(231, 229, 245);
+    margin-bottom: 30px;
+}
+
+.registerPage .second{
+    background-color: rgba(41, 40, 40, 0.493);
+    display: flex;
+    border-radius: 20px;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    padding: 100px;
+}
+
+.registerPage form input{
+    border: 2px solid rgba(0, 0, 0, 0.247);
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 15px;
+    height: 50px;
+    background-color: #181f3183;
+    color: rgba(243, 233, 233, 0.959);
+}
+
+.registerPage form select{
+    border: 2px solid rgba(0, 0, 0, 0.247);
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 15px;
+    height: 50px;
+    background-color: #181f3183;
+    color: rgba(243, 233, 233, 0.959);
+}
+.registerPage form input::file-selector-button{
+    background-color: rgba(0, 0, 0, 0.178);
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: 0;
+}
+
+.registerPage .button{
+    width: 200px !important;
+    padding: 7px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #181f31;
+    color: white;
+    font-weight: bold;
+}
+
+.registerPage .label{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 254, 254);
+}
+
+.registerPage .google{
+    display: flex;
+    background-color: white;
+    margin-left: 110px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.registerPage .googleButton{
+    border: 0;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.registerPage .or{
+    padding-left: 40px;
+    color: white;
+}
+
+.registerPage span{
+    display: flex;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 110px;
+    color: white;
+}
+
+.registerPage span a{
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.registerPage span p{
+    margin-right: 20px;
+}
+
+input{
+    outline: none;
+}
