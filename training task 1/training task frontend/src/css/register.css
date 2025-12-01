@@ -134,3 +134,8 @@
 input{
     outline: none;
 }
+
+
+.registerPage td{
+    border: 0 !important;
+}

@@ -88,3 +88,7 @@
     justify-content: space-around;
 
 }
+
+.loginPage td{
+    border: 0 !important;
+}
